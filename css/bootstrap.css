@@ -4028,14 +4028,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
     float: left;
-    margin: 20px 0 0;
+    margin: 10px 0 0;
     font-size: 18px;
     line-height: 20px;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
 .navbar-brand img {
-    width: 200px
+    width: 250px
 }
 .navbar-brand:hover,
 .navbar-brand:focus {

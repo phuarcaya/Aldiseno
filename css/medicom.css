@@ -598,7 +598,7 @@ HEADER
 
 .fixed-header.small-header .medicom-header .navbar-brand img {
 	margin-top: 7px;
-	width: 160px;
+	width: 200px;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
