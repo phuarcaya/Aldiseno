@@ -1909,7 +1909,7 @@ MEET THE DOCTORS
 
 .meet-the-doctors {
 	padding:55px 0 0;
-	background:url(../images/doctors.jpg) no-repeat center bottom #fcfcfc;
+	background:url(../images/team.jpg) no-repeat center bottom #fcfcfc;
 	min-height:815px;
 }
 .meet-the-doctors.team-carousel{
@@ -3703,4 +3703,8 @@ COLOR SWITCHER ONLY FOR DEMO
 }
 .backgrounds a#bg-ten {
 	background:url(../images/bg10.png);
+}
+
+.bg-color{
+	background: rgba(0, 0, 0, 0.61);
 }
