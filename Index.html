@@ -161,7 +161,7 @@
 			<div class="container">
 				
 				<h1>Contáctenos</h1>
-				<p class="lead">Si quieres comunicarte con nuestros especiales o tienes dudas sobre nuestros servicios, no de escribirnos en el sisguiente formulario.</p>
+				<p class="lead">Si tienes dudas o consultas, no dudes en escribirnos en el sisguiente formulario. A la brevedad posible, uno de nuestros especialistas le reponderá su solicitud.</p>
 				
 				<div class="row">
 					
@@ -173,18 +173,11 @@
 						<div class="appointment-form clearfix">
 						   <div class="success" id="message-app" style="display:none;"></div>
 							<form name="appoint_form" id="appoint_form" method="post" action="submit.php" onSubmit="return false">
-								<input type="text" name="app_fname" id="app_fname" placeholder="First Name" onKeyPress="removeChecks();">
-								<input type="text" name="app_lname" id="app_lname" placeholder="Last Name" onKeyPress="removeChecks();">
-								<input type="email" name="app_email_address" id="app_email_address" placeholder="Email Address" onKeyPress="removeChecks();">
-								<input type="text" name="app_phone" id="app_phone" placeholder="Phone No">
-								<input type="text" name="datepicker" id="datepicker" placeholder="Appointment Date" onClick="removeChecks();">
-								<select name="gender" id="gender">
-									<option>Male</option>
-									<option>Female</option>
-									<option>Child</option>
-								</select>
-								<textarea placeholder="Message" name="app_msg" id="app_msg"></textarea>
-								<input type="submit" value="Enviar" class="btn btn-default btn-rounded" onClick="validateAppoint();">
+								<input type="text" name="app_fname" id="app_fname" placeholder="Nombres o Razón social" onKeyPress="removeChecks();" style="width: 98%;">
+								<input type="email" name="app_email_address" id="app_email_address" placeholder="E-mail" onKeyPress="removeChecks();" style="width: 98%;">
+								<input type="text" name="subject" id="subject" placeholder="Asunto" style="width: 98%">
+								<textarea placeholder="Ingrese su mensaje aquí" name="app_msg" id="app_msg" onKeyPress="removeChecks();"></textarea>
+								<input type="submit" value="Enviar" class="btn btn-default btn-rounded" onClick="validateContact();">
 							</form>
 						</div>
 					</div>
@@ -199,31 +192,32 @@
 			
 			<div class="container">
 				<h1>Acerca de Aldiseño</h1>
-				<p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<p class="lead">Inicia sus actividades en 2001, con un personal capacitado
+            y con experiencia para llevar a cabo cada uno de los trabajos. Una de las razones del crecimiento de la organización es, brindar productos de buena calidad y servicios que satisfacen las necesidades de los clientes.</p>
 				
 				<div class="row text-center" id="counters">
 					<div class="col-md-3 col-xs-6">
 						<div class="counter">
 						   <span class="quantity-counter1 highlight">0</span>
-						   <h6 class="counter-details">AWARD SHOWS</h6>
+						   <h6 class="counter-details">+ Proyectos</h6>
 						 </div>
 					</div>
 					<div class="col-md-3 col-xs-6">
 						<div class="counter">
 						   <span class="quantity-counter2 highlight">0</span>
-						   <h6 class="counter-details">our staff</h6>
+						   <h6 class="counter-details">+ Sueños hechos realidad</h6>
 						 </div>
 					</div>
 					<div class="col-md-3 col-xs-6">
 						<div class="counter">
 						   <span class="quantity-counter3 highlight">0</span>
-						   <h6 class="counter-details">clinic rooms</h6>
+						   <h6 class="counter-details">+ Casas amobladas</h6>
 						 </div>
 					</div>
 					<div class="col-md-3 col-xs-6">
 						<div class="counter">
 						   <span class="quantity-counter4 highlight">0</span>
-						   <h6 class="counter-details">machines</h6>
+						   <h6 class="counter-details">+ Familias</h6>
 						 </div>
 					</div>
 				</div>
@@ -360,26 +354,26 @@
 								<article class="blog-item">
 									<div class="blog-thumbnail">
 									<img alt="" src="images/latest-news1.jpg">
-									<div class="blog-date"><p class="day">29</p><p class="monthyear">FEB 2014</p></div>
+									<div class="blog-date"><p class="day">15</p><p class="monthyear">FEB 2011</p></div>
 									</div>
 									<div class="blog-content">
-									<h4 class="blog-title"><a href="#">Latest Blog Graphic Image Post</a></h4>
-									<p class="blog-meta">By: <a href="#">admin</a> | Tags: <a href="#">Graphic</a>, <a href="#">illustration</a>, <a href="#">Logo</a></p>
-									<p>Printing and typesetting industry. Lorem Ipsum has been the industry? standard dummy text ever scrambled...</p>
-									<a href="#." class="btn btn-default btn-mini btn-rounded">READ MORE</a>
+									<h4 class="blog-title"><a href="javascript:void(0);">Proyecto Europlast</a></h4>
+									<p class="blog-meta">Lugar: <a href="javascript:void(0);">Lima</a> | Trabajo: <a href="javascript:void(0);">Drywall y Estructuras</a></p>
+									<p>Diseño de estructuras metálicas y paredes en Drywall.</p>
+									<a href="gallery1.html" class="btn btn-default btn-mini btn-rounded">VER MÁS</a>
 									</div>
 								</article>
 								<article class="blog-item">
 									<div class="blog-thumbnail">
 									<img alt="" src="images/latest-news3.jpg">
-									<div class="blog-date"><p class="day">29</p><p class="monthyear">FEB 2014</p></div>
+									<div class="blog-date"><p class="day">24</p><p class="monthyear">JUN 2014</p></div>
 									</div>
 									<div class="blog-content">
-									<h4 class="blog-title"><a href="#">Latest Blog Graphic Image Post</a></h4>
-									<p class="blog-meta">By: <a href="#">admin</a> | Tags: <a href="#">Graphic</a>, <a href="#">illustration</a>, <a href="#">Logo</a></p>
+									<h4 class="blog-title"><a href="#">Proyecto de ...</a></h4>
+									<p class="blog-meta">Lugar: <a href="javascript:void(0);">Lima</a> | Trabajo: <a href="javascript:void(0);">Puertas y pisos</a></p>
 									<p>Printing and typesetting industry. Lorem Ipsum has been the industry? standard dummy text ever scrambled...</p>
 									<p>Maecenas ornare, augue ut ultricies tristique, enim lectus pretium quam, quis bibendum metus tellus sed magna. Donec eu dolor [...]</p>
-									<a href="#." class="btn btn-default btn-mini btn-rounded">READ MORE</a>
+									<a href="gallery1.html" class="btn btn-default btn-mini btn-rounded">VER MÁS</a>
 									</div>
 								</article>	
 							</div>
@@ -391,22 +385,22 @@
 									<div class="blog-date"><p class="day">29</p><p class="monthyear">FEB 2014</p></div>
 									</div>
 									<div class="blog-content">
-									<h4 class="blog-title"><a href="#">Latest Blog Graphic Image Post</a></h4>
-									<p class="blog-meta">By: <a href="#">admin</a> | Tags: <a href="#">Graphic</a>, <a href="#">illustration</a>, <a href="#">Logo</a></p>
+									<h4 class="blog-title"><a href="#">Proyecto ...</a></h4>
+									<p class="blog-meta">Lugar: <a href="javascript:void(0);">Lima</a> | Trabajo: <a href="javascript:void(0);">Techos y Terrazas</a></p>
 									<p>Printing and typesetting industry. Lorem Ipsum has been the industry? standard dummy text ever scrambled...</p>
-									<a href="#." class="btn btn-default btn-mini btn-rounded">READ MORE</a>
+									<a href="gallery1.html" class="btn btn-default btn-mini btn-rounded">VER MÁS</a>
 									</div>
 								</article>
 								<article class="blog-item">
 									<div class="blog-thumbnail">
 									<img alt="" src="images/latest-news4.jpg">
-									<div class="blog-date"><p class="day">29</p><p class="monthyear">FEB 2014</p></div>
+									<div class="blog-date"><p class="day">10</p><p class="monthyear">FEB 2018</p></div>
 									</div>
 									<div class="blog-content">
-									<h4 class="blog-title"><a href="#">Latest Blog Graphic Image Post</a></h4>
-									<p class="blog-meta">By: <a href="#">admin</a> | Tags: <a href="#">Graphic</a>, <a href="#">illustration</a>, <a href="#">Logo</a></p>
+									<h4 class="blog-title"><a href="#">Proyecto</a></h4>
+									<p class="blog-meta">Lugar: <a href="javascript:void(0);">Lima</a> | Trabajo: <a href="javascript:void(0);">Muebles para departamento</a></p>
 									<p>Printing and typesetting industry. Lorem Ipsum has been the industry? standard dummy text ever scrambled...</p>
-									<a href="#." class="btn btn-default btn-mini btn-rounded">READ MORE</a>
+									<a href="gallery1.html" class="btn btn-default btn-mini btn-rounded">VER MÁS</a>
 									</div>
 								</article>
 							</div>
@@ -425,24 +419,20 @@
 								<div id="meet-doctors-carousel" class="owl-carousel meet-doctors-carousel text-center">
 									<div class="item">
 									  <img src="images/doctor-img.png" class="img-circle img-thumbnail list-inline" alt="" title="">
-										<h4>Dr.Mark Leon<br /><span>Anesthesiologist</span></h4>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec eros eget nisl fringilla commodo.
-			ornare, augue ut ultricies tristique, </p>
+										<h4>Carpinteros<br /><span>Muebles de todo tipo</span></h4>
+										<p>Personal especilizado en diseño de muebles en Melamine, Madera, MDF, Drywall, Estructuras metálicas y diseñadores en miniaturas publicitarias.</p>
 									</div>
 									<div class="item">
 									  <img src="images/doctor-img.png" class="img-circle img-thumbnail" alt="" title="">
-										<h4>Dr.Mark Leon<br /><span>Anesthesiologist</span></h4>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec eros eget nisl fringilla commodo.
-			ornare, augue ut ultricies tristique, </p>
+										<h4>Optimizadores<br /><span>Especilistas en optimización</span></h4>
+										<p>Para el máximo uso de melamine y minimizar la merma, contamos con personal capacitado y con herramientas especiales.</p>
 									</div>
 									<div class="item">
 									  <img src="images/doctor-img.png" class="img-circle img-thumbnail" alt="" title="">
-										<h4>Dr.Mark Leon<br /><span>Anesthesiologist</span></h4>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec eros eget nisl fringilla commodo.
-			ornare, augue ut ultricies tristique, </p>
+										<h4>Vendedores<br /><span>Melamina y Materiales</span></h4>
+										<p>Personal entrenado en ventas de melamine y materiales al mayor y menor para todo tipo de muebles.</p>
 									</div>
 								</div>
-							
 								
 							</div>
 							<h2 class="bordered light">Trabajos que <span>hacemos</span></h2>
@@ -458,8 +448,7 @@
 								
 								<div id="collapseOne" class="panel-collapse collapse in">
 								  <div class="panel-body">
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Aldus
-			Page Maker including versions.
+									Hacemos todo tipo de muebles en Melamine, Madera, MDF, Drywall y Estructuras metálicas. Muebles para sala, dormitorio, cocina, baño, terrazas, pisos, escaleras y de todo tipo.
 								  </div>
 								</div>
 							  </div>
@@ -473,8 +462,7 @@
 								</div>
 								<div id="collapseTwo" class="panel-collapse collapse">
 								  <div class="panel-body">
-								   It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Aldus
-			Page Maker including versions.
+								   Hacemos trabajos en melamine como; cocinas, closets, escritorios, muebles TV y otros tipos de muebles.
 								  </div>
 								</div>
 							  </div>
@@ -488,8 +476,7 @@
 								</div>
 								<div id="collapseThree" class="panel-collapse collapse">
 								  <div class="panel-body">
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Aldus
-			Page Maker including versions.
+									Diseño de puertas, techos, terrazas, escaleras, pasamanos, puertas levadizas, miniaturas publicitarias y acabados de todo tipo.
 								  </div>
 								</div>
 							  </div>
@@ -503,8 +490,7 @@
 								</div>
 								<div id="collapseFour" class="panel-collapse collapse">
 								  <div class="panel-body">
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Aldus
-			Page Maker including versions.
+									Trabajo de módulos, ruteados, enchapados de acero, paredes para oficinas y otros.
 								  </div>
 								</div>
 							  </div>
@@ -518,8 +504,7 @@
 								</div>
 								<div id="collapseFive" class="panel-collapse collapse">
 								  <div class="panel-body">
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Aldus
-			Page Maker including versions.
+									Nos especialzamos en trabajos de estructuras metálicas; puertas enrollables, pasamanos, ventanas y trabajos en general.
 								  </div>
 								</div>
 							  </div>
@@ -527,14 +512,13 @@
 								<div class="panel-heading">
 								  <h4 class="panel-title">
 									<a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-									  <span><i class="fa fa-plus"></i></span>Venta de Materiales
+									  <span><i class="fa fa-plus"></i></span>Melamine y Materiales
 									</a>
 								  </h4>
 								</div>
 								<div id="collapseSix" class="panel-collapse collapse">
 								  <div class="panel-body">
-								   It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Aldus
-			Page Maker including versions.
+								   Ofrecemos venta melamine al por mayor y menor. Servicio de corte, enchapado de cantos y servicios en general. Venta de materiales para todo tipo de muebles.
 								  </div>
 								</div>
 							  </div>
@@ -548,8 +532,7 @@
 								</div>
 								<div id="collapseSeven" class="panel-collapse collapse">
 								  <div class="panel-body">
-									It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Aldus
-			Page Maker including versions.
+									Ofrecemos servicio de consultoría en carpintería, optimización de cortes, trabajos en melamine, drywall, pintura y todo tipo de trabajos.
 								  </div>
 								</div>
 							  </div>
@@ -576,9 +559,9 @@
 					</div>
 					<div class="col-md-7">
 						<div class="medicom-app-content">
-							<h1>App disponible</h1>
-							<p class="lead">Ya se encuentra disponible las aplicaciones móviles de Aldiseño en tiendas de Apple y Google.
-							<span>DISPONIBLE EN TIENDAS</span>
+							<h1>APP ALDISEÑO</h1>
+							<p class="lead">Próximamente estarán en disposición las aplicaciones para smartphone en tiendas de Apple y Google.
+							<span>MUY PRONTO ENCONTRARÁS EN!</span>
 							</p>
 							<ul class="list-unstyled app-buttons">
 								<li><a href="javascript:void(0);"><img src="images/app-store-btn.png" alt="" title="App Store"></a></li>
@@ -643,146 +626,8 @@
     
     </div>
 
-	<div class="colourfull-row"></div>
-    
-	<footer id="footer" class="light">
-    	
-		<div class="container">
-        	
-			<div class="row">
-			
-            	<div class="col-md-3">
-                    
-					<div class="footer-widget">
-                        
-						<h4><span>Medicom</span></h4>
-                        
-						<ul class="footer-nav list-unstyled clearfix">
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Home</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Doctors</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>About US</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Departments</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Services</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Blog</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Why US</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Medical Care</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Specilaties</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Timetable</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Events</a></li>
-                            <li><a href="#."><i class="fa fa-long-arrow-right"></i>Contact Us</a></li>
-                        </ul>
-						
-                    </div>
-					
-                </div>
-				
-            	<div class="col-md-3">
-				
-					<!-- Footer Widget
-					============================================= -->
-                	<div class="footer-widget">
-                        
-						<h4><span>newsletter</span></h4>
-                        
-						<div class="newsletter clearfix">
-                        
-							<i class="fa fa-envelope"></i>
-                            <p class="newsletter-text">Sign up with your name and email to
-    get updates fresh updates.</p>
-						
-						<div class="success" id="message-news" style="display:none;">Thank you! You have successfully subscribed.</div>
-						<form name="newsletter_form" id="newsletter_form" method="post" action="submit.php" onSubmit="return false">
-                            <input type="text" name="news_name" id="news_name" placeholder="Your Name" onKeyPress="removeChecks();">
-                            <input type="email" name="news_email_address" id="news_email_address" placeholder="Email Address" onKeyPress="removeChecks();">
-                            <input type="submit" value="subscribe" class="btn btn-default btn-rounded" onClick="validateNewsletter();">
-                        </form>
-						
-                        </div>
-                    </div>
-					
-                </div>
-				
-            	<div class="col-md-3">
-				
-					<!-- Footer Widget
-					============================================= -->
-					<div class="footer-widget">
-						
-						<h4><span>Latest Tweets</span></h4>
-						
-						<div class="twitter-widget">
-							
-							<div class="tweet">
-								<i class="fa fa-twitter"></i>
-								<p><a href="#">@Rotography</a> Please kindly use our Support Forum: <a href="#.">pixelatic.co.uk.</a>
-								<span>about a month ago</span>
-								</p>
-							</div>
-						
-							<div class="tweet">
-								<i class="fa fa-twitter"></i>
-								<p><a href="#">@Rotography</a> Please kindly use our Support Forum: <a href="#.">pixelatic.co.uk.</a>
-								<span>about a month ago</span>
-								</p>
-							</div>
-							
-						</div>
-						
-					</div>
-					
-                </div>
-				
-            	<div class="col-md-3">
-                   
-					<!-- Footer Widget
-					============================================= -->
-					<div class="footer-widget">
-                    
-						<h4><span>get in touch</span></h4>
-                        <p>Medico Bibendum auctor, nisi elit consequat ipsum, nec sagittis sem</p>
-                        
-						<div class="contact-widget">
-                        	<i class="fa fa-home"></i><p>Medicom Ltd, Manhattan 1258, New York, USA Lahore</p>
-							<i class="fa fa-globe"></i><p><a href="#.">www.medicom.com</a></p>
-                            <i class="fa fa-mobile"></i><p class="phone-number">(+1) 234 567 8901</p>
-                        </div>
-						
-						<ul class="social3 clearfix">
-							<li><a href="#."><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#."><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#."><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#."><i class="fa fa-skype"></i></a></li>
-							<li><a href="#."><i class="fa fa-youtube"></i></a></li>
-							<li><a href="#."><i class="fa fa-dribbble"></i></a></li>
-						</ul>
-						
-                    </div>
-					
-                </div>
-            </div>
-        </div>
-		
-		
-		<!-- Copyright
-		============================================= -->
-        <p class="copyright text-center">Copyright &copy; 2018 Aldiseño. Todos los derechos reservados.</p>
-        
-		
-		<!-- Footer Bottom
-		============================================= -->
-		<div class="container">
-        	<div class="row">
-            	<div class="col-md-2"><a href="#."><img src="images/footer-logo.jpg" alt="" title="Medicom Logo"></a></div>
-            	<div class="col-md-10">
-                	<p class="footer-bottom-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
-                </div>
-            </div>
-        </div>
-		
-		
-    </footer>
-		<a href="#." class="back-to-top" id="back-to-top"><i class="fa fa-angle-up"></i></a>
-	
+	<script type="text/javascript" language="javascript">piepagina();</script>
+
     </div>
 
 	<script src="js/jquery.js"></script>

@@ -3451,11 +3451,11 @@ footer.dark .footer-bottom-text {
 
 .tweet i {
 	float:left;
-	font-size:20px;
-	margin-top:11px;
+	font-size:10px;
+	margin-top:19px;
 }
 .tweet p {
-	padding:10px 0 0 30px;
+	padding:10px 0 0 20px;
 	margin-bottom:10px;
 }
 .tweet p span {
