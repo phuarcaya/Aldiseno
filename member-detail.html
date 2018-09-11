@@ -48,7 +48,7 @@
 				
 				<div class="container">
 					<h1 class="entry-title">Clientes</h1>
-					<p>Algunos de clientes.</p>
+					<p>Nuestros principales clientes que confiaron en nosotros.</p>
 				</div>
 				
 			</section>
@@ -79,7 +79,7 @@
 								</div>
 								
 								<div class="doctors-detail">
-									<h4>Europlast<span>senior doctor at medicom</span></h4>
+									<h4>Europlast<span>sector plásticos</span></h4>
 									<p><label class="heading">Speciality</label><label class="detail">Physiotherapist</label></p>
 									<p><label class="heading">Degrees</label><label class="detail">M.D. of Medicine</label></p>
 									<p><label class="heading">Experience</label><label class="detail">38 years of Experience</label></p>
@@ -100,7 +100,7 @@
 								</div>
 								
 								<div class="doctors-detail">
-									<h4>Dr.Mark Leon<span>senior doctor at medicom</span></h4>
+									<h4>Otros<span>Otros</span></h4>
 									<p><label class="heading">Speciality</label><label class="detail">Physiotherapist</label></p>
 									<p><label class="heading">Degrees</label><label class="detail">M.D. of Medicine</label></p>
 									<p><label class="heading">Experience</label><label class="detail">38 years of Experience</label></p>
@@ -125,7 +125,7 @@
 								</div>
 								
 								<div class="doctors-detail">
-									<h4>Dr.Mark Leon<span>senior doctor at medicom</span></h4>
+									<h4>Otros<span>Otros</span></h4>
 									<p><label class="heading">Speciality</label><label class="detail">Physiotherapist</label></p>
 									<p><label class="heading">Degrees</label><label class="detail">M.D. of Medicine</label></p>
 									<p><label class="heading">Experience</label><label class="detail">38 years of Experience</label></p>
@@ -174,17 +174,19 @@
 	<script src="js/color-switcher.js"></script>
 	
 	<script>
-		$(document).ready(function(){
-		    var owl = $(".owl-carousel");
-		    owl.owlCarousel({
-		        items: 3,
-		        autoplay: true,
-		        autoPlaySpeed: 5000,
-		        autoPlayTimeout: 5000
-		        autoplayHoverPause: true,
-		    });
+		$(function(){
 
-		    owl.trigger('owl.play',6000);
+		 var owl = $('.owl-carousel');
+		   owl.owlCarousel({
+				items : 3, //10 items above 1000px browser width
+				itemsDesktop : [1000,5], //5 items between 1000px and 901px
+				itemsDesktopSmall : [900,3], // 3 items betweem 900px and 601px
+				itemsTablet: [600,2], //2 items between 600 and 0;
+				itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+		   });
+
+		   owl.trigger('owl.play',4000);
+
 		});
 	</script>
 
