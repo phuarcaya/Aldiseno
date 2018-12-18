@@ -56,4 +56,5 @@
 
 
 /*index revolution slider changes*/
-.index-rev-slider.fullwidthbanner-container{ max-height:682px !important;}
+.index-rev-slider.fullwidthbanner-container{ 
+	max-height:682px !important;}

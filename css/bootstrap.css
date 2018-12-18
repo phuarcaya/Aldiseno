@@ -4235,7 +4235,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     }
 }
 .navbar-default {
-    background-color: #fff;
+    background-color: #97c11f;
 }
 .navbar-default .navbar-brand {
     color: #777777;
@@ -4249,7 +4249,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     color: #777777;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #707070;
+    color: #fff;
     text-transform: uppercase;
 }
 @media (min-width: 768px) {

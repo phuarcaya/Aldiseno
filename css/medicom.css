@@ -162,6 +162,7 @@ img {
 	min-height:84px;
 	position:relative;
 	z-index: 23;
+	background: #97c11f;
 }
 .header-bottom-line {
 	display:block;
@@ -214,7 +215,7 @@ img {
 	height:3px;
 }
 .solid-row{
-	height:3px;
+	height:80px;
 }
 video {
 	width: 100%!important;
@@ -579,7 +580,7 @@ HEADER
 	left:0;
 	top:0;
 	width:100%;
-	background:#fff;
+	background:#97c11f;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
@@ -802,7 +803,6 @@ APPOINTMENT
 
 .appointment-sec {
 	background:url(../images/lines-bg-white.jpg) repeat center top;
-	min-height:731px;
 	padding:40px 0 0;
 }
 .appointment-sec.bg-gray {
