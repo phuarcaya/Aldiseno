@@ -96,6 +96,9 @@
 						navigation : true
 					});
 					
+					jQuery("#destacados-list").owlCarousel({
+						navigation : true
+					});
 					
 					
 					
