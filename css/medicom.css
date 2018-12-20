@@ -766,7 +766,7 @@ HEADER
         }
 
     .fixed-header #content-index, .fixed-header .sub-page-banner {
-        margin-top: 84px;
+        margin-top: 160px;
     }
 
     .fixed-header .header-bottom-line {
@@ -1002,6 +1002,11 @@ APPOINTMENT
     background: url(../images/lines-bg-white.jpg) repeat center top;
     padding: 40px 0 0;
 }
+
+.service-sec {
+    padding: 40px 0 0;
+}
+
 
     .appointment-sec.bg-gray {
         background: url(../images/lines-bg.jpg) repeat center top;
