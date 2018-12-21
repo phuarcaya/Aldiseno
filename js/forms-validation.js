@@ -45,6 +45,47 @@
 					
 					
 	function validateContact(){
+
+		var subject = $('#subject').val();
+
+		var dataEmail = {
+			api_user:'poncianohc',
+			api_key:'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',
+			to:'poncianohc@gmail.com',
+			toname:'Destination',
+			subject:'Example_Subject',
+			text:'testingtextbody',
+			from:'info@domain.com'
+		};
+
+		var data2 = {
+					  api_user:'poncianohc',
+			api_key:'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',
+			to:'poncianohc@gmail.com',
+			toname:'Destination',
+			subject:'Example_Subject',
+			text:'testingtextbody',
+			from:'info@domain.com'
+					};
+
+		$.ajax({
+                url: 'https://api.sendgrid.com/v3/mail/send',
+                dataType: 'json',
+                contentType: 'application/json; charset=utf-8',
+                type: "POST",
+                
+                data: data2,
+                success: function (data) {
+                    console.log('OK');
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            });
+
+		return false;
+
+
 		var app_fname = document.getElementById("app_fname");
 		var app_email_address = document.getElementById("app_email_address");
 	
